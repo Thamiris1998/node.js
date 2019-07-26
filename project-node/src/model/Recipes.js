@@ -17,7 +17,7 @@ const RecipesSchema = new mongoose.Schema({
         type : Array , 
         "default" : [],
     },
-    data:{
+    date:{
         type: Date, 
         default: Date.now 
     },
